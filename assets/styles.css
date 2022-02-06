@@ -1,7 +1,7 @@
-:root {
-    background-color: #333333;
+html {
+    background-color: black;
     font-family: 'Roboto', 'Roboto+Condensed', 'Roboto+Slab', sans-serif;
-    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -33,16 +33,16 @@ header nav {
     padding-top: 25px;
     margin-right: 20px;
     width: 80%;
-    /* float: right; */
-    font-size: 20px;
+    font-size: 20px;     
+    flex-direction: row;
     }
 
-header li {
+header ul {
     float: right;
+    display: flex;
     }
 
 header li a {
-    display: block;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -65,37 +65,49 @@ main {
 main section {
     min-height: 200px;
     padding: 20px;
+    width: 100%;
 }
 
 #about {
-    background-color: yellowgreen;
+    background-color: black;
 }
 
-#works {
-    background-color: black;
+#skills {
+    background-color: yellowgreen;
+    color: #333333;
+}
+
+#projects {
+    background-color: green;
+}
+
+#contact {
+    background-color: #333333;
+    color: yellowgreen;
 }
 
 /* FOOTER */
 footer {
-    display: inline-block;
+    display: flexbox;
     background-color: black;
-    color: white;
+    min-height: 50px;
     height: auto;
     width: 100%;
+    padding: 10px 20px 0 10px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: light;
+    color: #555555;
 }
 
-footer nav {
-    padding-top: 25px;
-    width: 100%;
-    font-size: 20px;
-    }
-
-footer li {
-    float: center;
+footer ul {
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
     }
 
 footer li a {
-    display: block;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -107,6 +119,6 @@ footer li a:hover {
     text-shadow: 2px 2px 3px black;
     }
 
-footer h1 {
-    color: yellowgreen;
+footer p {
+    padding: 15px 40px;
 }
