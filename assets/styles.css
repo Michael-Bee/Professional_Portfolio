@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    background-color: black;
+    color: red;
+    height: 100px;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: greenyellow;
+    height: 100px;
+    width: 100%;
+    align-content: center;
+}
