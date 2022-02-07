@@ -5,7 +5,6 @@
 }
 
 html {
-    background-color: black;
     font-family: 'Roboto', 'Roboto+Condensed', 'Roboto+Slab', sans-serif;
     scroll-behavior: smooth;
     }
@@ -71,7 +70,7 @@ main {
 
 main section {
     min-height: 200px;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     width: 100%;
     }
 
@@ -81,7 +80,6 @@ main section {
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     font-size: 32px;
     }
 
@@ -90,13 +88,40 @@ main section {
     font-weight: 600;
     font-size: 100px;
     color: wheat;
-}
+    }
 
 #profile_pic{
     height: auto;
     width: 200px;
     border-radius: 200px;
     align-self: center;
+    }
+
+/* ABOUT */
+#about {
+    background-color: black;
+    padding-left: 15%;
+}
+
+#about h1 {
+    font-size: 32px;
+    font-family: 'Roboto+Slab';
+    font-weight: bolder;
+}
+
+#about h2 {
+    color: wheat;
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+#about p {
+    color: wheat;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    width:70ch
 }
 
 /* PROJECTS */
@@ -108,7 +133,21 @@ main section {
 /* CONTACT */
 #contact {
     background-color: wheat;
+    padding-left: 15%;
+    }
+
+#contact h1 {
+    font-size: 26px;
+    font-family: 'Roboto+Slab';
+    font-weight: 900;
+    color:#333333;
+}
+#contact p {
     color: darkgreen;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    width:70ch
     }
 
 /* FOOTER */
