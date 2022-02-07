@@ -1,3 +1,9 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     background-color: black;
     font-family: 'Roboto', 'Roboto+Condensed', 'Roboto+Slab', sans-serif;
@@ -52,6 +58,7 @@ header li a {
 header li a:hover {
     background-color: #333333;
     text-shadow: 2px 2px 3px black;
+    color: wheat;
     }
 
 
@@ -68,38 +75,40 @@ main section {
     width: 100%;
     }
 
-    /* ABOUT */
-#about {
+/* INTRO */
+#intro {
     background-color: black;
     height: auto;
-    width: 100%;
-    padding: 0 20% 40px 30px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    font-size: 32px;
     }
+
+#intro span {
+    font-family: 'Roboto+Slab';
+    font-weight: 600;
+    font-size: 100px;
+    color: wheat;
+}
 
 #profile_pic{
     height: auto;
     width: 200px;
     border-radius: 200px;
+    align-self: center;
 }
 
-    /* SKILLS */
-#skills {
+/* PROJECTS */
+#projects {
     background-color: darkgreen;
     color: wheat;
     }
 
-    /* PROJECTS */
-#projects {
-    background-color: wheat;
-    color: #333333;
-    }
-
-    /* CONTACT */
+/* CONTACT */
 #contact {
-    background-color: #333333;
-    color: white;
+    background-color: wheat;
+    color: darkgreen;
     }
 
 /* FOOTER */
@@ -110,7 +119,7 @@ footer {
     height: auto;
     width: 100%;
     padding: 10px 20px 0 10px;
-    text-align: right;
+    text-align: center;
     font-size: 16px;
     font-weight: light;
     color: #555555;
@@ -118,8 +127,9 @@ footer {
 
 footer ul {
     display: flex;
-    float: left;
+    float: center;
     justify-content: space-evenly;
+    padding: 0 20%;
     }
 
 footer li a {
@@ -131,8 +141,10 @@ footer li a {
     }
 
 footer li a:hover {
-    background-color: #333333;
+    background-color: #444;
     text-shadow: 2px 2px 3px black;
+    color: wheat;
+
     }
 
 footer p {
