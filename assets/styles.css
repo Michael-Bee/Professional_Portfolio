@@ -98,8 +98,7 @@ main section {
     width: 55%;    
     font-size: 32px;
     margin-left: 20%;
-
-}
+    }
 
 #profile_pic{
     height: auto;
@@ -130,27 +129,56 @@ main section {
 
 #about p {
     color: wheat;
-    font-size: 20px;
+    font-size: 2rem;
     padding-top: 20px;
     line-height: 1.5;
-    max-width:70ch;
+    max-width: 60ch;
     }
 
 /* PROJECTS */
 #projects {
+    border: 2px dashed orange;
     background-color: darkgreen;
-    color: wheat;
+    padding-left: 10%;
+    }
+
+#projects div{
+    border: 2px dashed grey;
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    }
+
+#skills {
+    border: 2px dashed orchid;
+    padding: 0;
+    width: 40%;
+    font-size: 2rem;
+    }
+
+#skills h1 {
+    font-size: 3.2rem;
+    font-family: 'Roboto+Slab';
+    font-weight: bolder;
+    padding-bottom: 16px;
+    color: white;
+    }
+
+#projectLinks {
+    border: 2px dashed orangered;
+    padding: 0;
+    width: 50%
     }
 
 /* CONTACT */
 #contact {
     background-color: wheat;
-    padding-left: 15%;
+    padding-left: 10%;
     }
 
 #contact h1 {
     padding-bottom: 16px;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Roboto+Slab';
     font-weight: 900;
     color:darkgreen;
