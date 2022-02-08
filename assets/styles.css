@@ -8,6 +8,7 @@ html {
     font-family: 'Roboto', 'Roboto+Condensed', 'Roboto+Slab', sans-serif;
     scroll-behavior: smooth;
     font-size: 62.5%;
+    background-color: black;
     }
 
 a {
@@ -110,7 +111,7 @@ main section {
 /* ABOUT */
 #about {
     /* border: 2px dashed red; */
-    background-color: black;
+    background-color: darkgreen;
     padding: 30px 0;
     }
 
@@ -142,41 +143,42 @@ main section {
 /* PROJECTS */
 #projects {
     /* border: 2px dashed orange; */
-    background-color: darkgreen;
+    background-color: #333333;
     padding: 30px 0;
     }
 
 #projects div{
-    border: 2px dashed grey;
+    /* border: 2px dashed grey; */
     margin-left: 12%;
     width: 90%;    
     display: flex;
     }
 
+#projects h1 {
+    font-size: 3.2rem;
+    font-family: 'Roboto+Slab';
+    font-weight: 900;
+    margin-left: 12%;
+    padding-bottom: 16px;
+    color: white;
+    }
+
 #projectLinkBig {
-    border: 2px dashed orchid;
+    /* border: 2px dashed orchid; */
     padding: 0;
     width: 40%;
     font-size: 2rem;
     }
 
-#projectLinkBig h1 {
-    font-size: 3.2rem;
-    font-family: 'Roboto+Slab';
-    font-weight: bolder;
-    padding-bottom: 16px;
-    color: white;
-    }
-
 #projectLinkBig a {
     height: 470px;
     width: 470px;
-    background-color: #333333;
+    background-color: black;
     border-radius: 1rem;
     }
 
 #projectLinkSmall {
-    border: 2px dashed orangered;
+    /* border: 2px dashed orangered; */
     padding: 0;
     width: 40%
     }
@@ -184,15 +186,15 @@ main section {
 #projectLinkSmall a {
     height: 230px;
     width: 230px;
-    background-color: #333333;
+    background-color: black;
     border-radius: 1rem;
     display: inline-block;
-    margin: 15px;
+    margin: 0 15px 15px 0;
     }
 
 /* CONTACT */
 #contact {
-    background-color: wheat;
+    background-color: darkgreen;
     padding: 30px 0;
     }
 
@@ -208,15 +210,16 @@ main section {
     }
 
 #contact h1 {
-    padding-bottom: 1.6rem;
     font-size: 3.2rem;
     font-family: 'Roboto+Slab';
     font-weight: 900;
-    color:darkgreen;
+    margin-left: 12%;
+    padding-bottom: 16px;
+    color: white;
     }
 
 #contact p {
-    color: black;
+    color: wheat;
     font-size: 2rem;
     line-height: 1.5;
     } 
@@ -228,7 +231,8 @@ main section {
     }
 
 #contactLinks img {
-    height: 50px;
+    background:transparent;
+    height: 100px;
     width: auto;
     }
 
