@@ -7,6 +7,7 @@
 html {
     font-family: 'Roboto', 'Roboto+Condensed', 'Roboto+Slab', sans-serif;
     scroll-behavior: smooth;
+    font-size: 62.5%;
     }
 
 a {
@@ -17,6 +18,7 @@ a {
 
 /* HEADER */
 header {
+    /* border: 1px solid white; */
     display: flex;
     background-color: black;
     color: white;
@@ -35,11 +37,11 @@ header {
     }
 
 header nav {
+    /* border: 1px solid blue; */
     padding-top: 25px;
     margin-right: 20px;
     width: 80%;
-    font-size: 20px;     
-    flex-direction: row;
+    font-size: 2rem;     
     }
 
 header ul {
@@ -63,12 +65,14 @@ header li a:hover {
 
 /* MAIN */
 main {
+    /* border: 1px solid red; */
     display: block;
     color: white;
     min-height: 300px;
     }
 
 main section {
+    /* border: 1px solid green; */
     min-height: 200px;
     padding: 20px 20px 40px 20px;
     width: 100%;
@@ -76,11 +80,10 @@ main section {
 
 /* INTRO */
 #intro {
+    /* border: 1px solid pink; */
     background-color: black;
     height: auto;
     display: flex;
-    justify-content: space-evenly;
-    font-size: 32px;
     }
 
 #intro span {
@@ -89,6 +92,14 @@ main section {
     font-size: 100px;
     color: wheat;
     }
+
+#intro div {
+    /* border: 1px solid yellow; */
+    width: 55%;    
+    font-size: 32px;
+    margin-left: 20%;
+
+}
 
 #profile_pic{
     height: auto;
@@ -99,12 +110,13 @@ main section {
 
 /* ABOUT */
 #about {
+    /* border: 2px dashed red; */
     background-color: black;
-    padding-left: 15%;
+    padding-left: 10%;
     }
 
 #about h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
     font-family: 'Roboto+Slab';
     font-weight: bolder;
     padding-bottom: 16px;
@@ -112,7 +124,7 @@ main section {
 
 #about h2 {
     color: wheat;
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: bolder;
     }
 
