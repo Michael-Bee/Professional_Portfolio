@@ -148,19 +148,22 @@ main section {
     }
 
 #projects div{
-    /* border: 2px dashed grey; */
-    margin-left: 20%;
-    width: 90%;    
+    border: 2px dashed blue;
+    width: 100%;    
     display: flex;
     }
 
 #projects h1 {
-    font-size: 3.2rem;
+    border: 2px dashed purple;
+    font-size: 7rem;
     font-family: 'Roboto+Slab';
     font-weight: 900;
-    margin-left: 12%;
-    padding-bottom: 16px;
     color: white;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 13%;
+    margin-right: 3%;
+    text-align: right;
     }
 
 #projects h2 {
@@ -170,7 +173,7 @@ main section {
         }
 
 #projectLinkBig {
-    /* border: 2px dashed orchid; */
+    border: 2px dashed orchid;
     padding: 0;
     width: 40%;
     font-size: 2rem;
@@ -186,6 +189,7 @@ main section {
 #projectLinkSmall {
     /* border: 2px dashed orangered; */
     padding: 0;
+    margin-left: 20px;
     width: 40%
     }
 
@@ -207,18 +211,20 @@ main section {
     }
 
 #contact h1 {
-    font-size: 3.2rem;
+    font-size: 7rem;
     font-family: 'Roboto+Slab';
     font-weight: 900;
-    margin-left: 12%;
-    padding-bottom: 16px;
     color: white;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 13%;
+    margin-right: 3%;
+    text-align: right;
     }
 
 #contact div{
     border: 2px dashed blue;
-    margin-left: 20%;
-    width: 90%;    
+    width: 100%;    
     display: flex;
     }
 
@@ -230,14 +236,14 @@ main section {
 
 #contactForm {
     border: 2px dashed yellow;
-    width: 30%;
+    width: 40%;
     }
 
 #contactLinks {
     border: 2px dashed grey;
     width: 40%;
     display: flex;
-    margin-left: 20%;
+    margin-left: 20px;
     }
 
 #contactLinks img {
