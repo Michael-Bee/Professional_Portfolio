@@ -1,33 +1,49 @@
-# Professional_Portfolio
+<h1>Professional Portfolio of Michael Bee</h1>
 
-Professional Portfolio of Michael Bee
+<h2>Project Description:</h2>
 
-Project Description:
 A portfolio of work samples for potential employers to review. 
 
-Table of Contents:
+<h2>Table of Contents:</h2>
+
 Home page with navigation links to About, Projects, and Contact sections.
+
 About Section: An introduction to Michael Bee's education, experience, career aspirations, and personal interests. 
+
 Projects Section: Image links to placeholder projects, to be filled with images and links to actual projects at a later date.
+
 Contact Section: Email form and social media links to contact Michael Bee.
 
-Screenshot:
-(Can't figure out how to add screenshot here. It's in the assets folder.)
+<h2>Screenshot:</h2>
 
-How to Install and Run:
+![title](assets/Professional_Portfolio_Screenshot.png)
+
+
+<h2>How to Install and Run:</h2>
+
 Clone from Michael-Bee's repository at https://github.com/Michael-Bee/Professional_Portfolio
 Visit page at https://michael-bee.github.io/Professional_Portfolio/
 
-Credits: Michael Bee
 
-Sources:
+<h2>Credits:</h2>
+
+Made by Michael Bee, 2022
+
+<h2>Resources:</h2>
+
 https://fonts.google.com/
+
 https://www.w3schools.com/
+
 https://developer.mozilla.org/en-US/
+
 https://blog.getform.io/how-to-create-an-html-form-that-sends-you-an-email/
+
 https://www.youtube.com/watch?v=VCNlRNwIZcQ
 
-License: 
+
+<h2>License:</h2> 
+
 MIT License
 Copyright (c) [2022] [Michael Bee]
 
