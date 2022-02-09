@@ -159,6 +159,7 @@ main section {
     font-family: 'Roboto Slab';
     font-weight: 600;
     color: white;
+    letter-spacing: .5rem;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     margin-left: 13%;
@@ -171,7 +172,7 @@ main section {
     font-weight: bolder;
     color: white;
     text-shadow: 2px 2px 5px black;
-        }
+    }
 
 #projectLinkBig {
     /* border: 2px dashed orchid; */
@@ -231,6 +232,7 @@ main section {
     font-family: 'Roboto Slab';
     font-weight: 600;
     color: white;
+    letter-spacing: .5rem;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     margin-left: 13%;
@@ -266,7 +268,7 @@ main section {
     font-family: "Roboto Slab";
     color: black;
     padding: 8px;
-}
+    }
 
 #contactLinks {
     /* border: 2px dashed grey; */
@@ -289,7 +291,6 @@ footer {
     min-height: 50px;
     height: auto;
     width: 100%;
-    padding: 10px 0;
     text-align: center;
     font-size: 16px;
     font-weight: light;
@@ -309,18 +310,16 @@ footer li a {
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 14px 16px;
     }
 
 footer li a:hover {
     background-color: #444;
     text-shadow: 2px 2px 3px black;
     color: wheat;
-
     }
 
 footer p {
-    padding: 15px 40px;
+    padding: 15px;
     }
 
 /* MEDIA QUERIES */
