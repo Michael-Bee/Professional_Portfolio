@@ -111,7 +111,7 @@ main section {
 /* ABOUT */
 #about {
     /* border: 2px dashed red; */
-    background-color: darkgreen;
+    background-color: black;
     padding: 30px 0;
     }
 
@@ -137,7 +137,7 @@ main section {
     padding-top: 20px;
     margin-left: 20%;
     line-height: 1.5;
-    width: 70%;
+    width: 40%;
     }
 
 /* PROJECTS */
@@ -149,7 +149,7 @@ main section {
 
 #projects div{
     /* border: 2px dashed grey; */
-    margin-left: 12%;
+    margin-left: 20%;
     width: 90%;    
     display: flex;
     }
@@ -163,6 +163,12 @@ main section {
     color: white;
     }
 
+#projects h2 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    color: white;
+        }
+
 #projectLinkBig {
     /* border: 2px dashed orchid; */
     padding: 0;
@@ -172,9 +178,9 @@ main section {
 
 #projectLinkBig a {
     height: 470px;
-    width: 470px;
-    background-color: black;
+    width: 100%;
     border-radius: 1rem;
+    background-image: url("../assets/musicbox.jpg");
     }
 
 #projectLinkSmall {
@@ -186,27 +192,18 @@ main section {
 #projectLinkSmall a {
     height: 230px;
     width: 230px;
-    background-color: black;
+    background-image: url("../assets/blumhaus.jpg");
+    background-size: contain;
     border-radius: 1rem;
     display: inline-block;
     margin: 0 15px 15px 0;
+
     }
 
 /* CONTACT */
 #contact {
-    background-color: darkgreen;
+    background-color: black;
     padding: 30px 0;
-    }
-
-#contact div{
-    border: 2px dashed grey;
-    margin-left: 12%;
-    width: 90%;    
-    display: flex;
-    }
-
-#contactLeft {
-    width: 40%;
     }
 
 #contact h1 {
@@ -218,27 +215,35 @@ main section {
     color: white;
     }
 
+#contact div{
+    border: 2px dashed blue;
+    margin-left: 20%;
+    width: 90%;    
+    display: flex;
+    }
+
 #contact p {
     color: wheat;
     font-size: 2rem;
     line-height: 1.5;
     } 
 
+#contactForm {
+    border: 2px dashed yellow;
+    width: 30%;
+    }
+
 #contactLinks {
+    border: 2px dashed grey;
+    width: 40%;
     display: flex;
     margin-left: 20%;
-    width: 200px;
     }
 
 #contactLinks img {
     background:transparent;
     height: 100px;
-    width: auto;
     }
-
-#contactForm {
-    width: 40%;
-}
 
 /* FOOTER */
 footer {
