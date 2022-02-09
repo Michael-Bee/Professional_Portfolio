@@ -5,7 +5,9 @@
     }
 
 html {
-    font-family: 'Roboto', 'Roboto+Condensed', 'Roboto+Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
     scroll-behavior: smooth;
     font-size: 62.5%;
     background-color: black;
@@ -75,7 +77,6 @@ main {
 main section {
     /* border: 1px solid green; */
     min-height: 200px;
-    padding-bottom: 30px;
     width: 100%;
     }
 
@@ -103,8 +104,8 @@ main section {
 
 #profile_pic{
     height: auto;
-    width: 200px;
-    border-radius: 200px;
+    width: 250px;
+    border-radius: 250px;
     align-self: center;
     }
 
@@ -148,16 +149,16 @@ main section {
     }
 
 #projects div{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     width: 100%;    
     display: flex;
     }
 
 #projects h1 {
-    border: 2px dashed purple;
+    /* border: 2px dashed purple; */
     font-size: 7rem;
     font-family: 'Roboto+Slab';
-    font-weight: 900;
+    font-weight: 600;
     color: white;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -170,10 +171,11 @@ main section {
     font-size: 3.2rem;
     font-weight: bolder;
     color: white;
+    text-shadow: 2px 2px 3px black;
         }
 
 #projectLinkBig {
-    border: 2px dashed orchid;
+    /* border: 2px dashed orchid; */
     padding: 0;
     width: 40%;
     font-size: 2rem;
@@ -190,18 +192,33 @@ main section {
     /* border: 2px dashed orangered; */
     padding: 0;
     margin-left: 20px;
+    max-width: 600px;
     width: 40%
     }
 
 #projectLinkSmall a {
     height: 230px;
     width: 230px;
-    background-image: url("../assets/blumhaus.jpg");
     background-size: contain;
     border-radius: 1rem;
     display: inline-block;
     margin: 0 15px 15px 0;
+    }
+    
+#blumhaus{
+    background-image: url("../assets/blumhaus.jpg");
+    }
 
+#brasserie{
+    background-image: url("../assets/brasserieDuLierve.jpg");
+    }
+
+#distillery{
+    background-image: url("../assets/blueStarDistillery.jpg");
+    }
+    
+#orienteering{
+    background-image: url("../assets/orienteering.jpg");
     }
 
 /* CONTACT */
@@ -213,7 +230,7 @@ main section {
 #contact h1 {
     font-size: 7rem;
     font-family: 'Roboto+Slab';
-    font-weight: 900;
+    font-weight: 600;
     color: white;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -223,7 +240,7 @@ main section {
     }
 
 #contact div{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     width: 100%;    
     display: flex;
     }
@@ -235,12 +252,12 @@ main section {
     } 
 
 #contactForm {
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
     width: 40%;
     }
 
 #contactLinks {
-    border: 2px dashed grey;
+    /* border: 2px dashed grey; */
     width: 40%;
     display: flex;
     margin-left: 20px;
