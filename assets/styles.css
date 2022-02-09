@@ -92,6 +92,8 @@ main section {
     font-weight: 600;
     font-size: 10rem;
     color: wheat;
+    text-shadow: 2px 2px 5px black;
+    z-index: 3;
     }
 
 #intro div {
@@ -99,6 +101,7 @@ main section {
     width: 55%;    
     font-size: 32px;
     margin-left: 20%;
+    z-index: 2;
     }
 
 #profile_pic{
@@ -106,6 +109,8 @@ main section {
     width: 250px;
     border-radius: 250px;
     align-self: center;
+    z-index: 1;
+
     }
 
 /* ABOUT */
@@ -325,8 +330,27 @@ footer p {
 
 /* MEDIA QUERIES */
 
-/* @media (max-width: 480px) {
-    body {
-        font-size: 16px;
+@media (max-width: 480px) {
+    #intro div {
+        width: 100%;    
+        margin-left: 20px;
         }
-    } */
+
+    #about h1 {
+        margin-left: 20px;
+        }
+        
+        #about h2 {
+        margin-left: 20px;        
+        padding-bottom: 16px;
+        }
+        
+    #about p {
+        font-size: 2rem;
+        padding-top: 20px;
+        margin-left: 20px;
+        line-height: 1.5;
+        width: 100%;
+            }        
+    
+}
