@@ -6,7 +6,7 @@
 
 html {
     font-family: 'Roboto Slab', serif;
-    
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     font-size: 62.5%;
     background-color: black;
@@ -151,6 +151,7 @@ main section {
     /* border: 2px dashed blue; */
     width: 100%;    
     display: flex;
+    font-family: 'Roboto Slab';
     }
 
 #projects h1 {
