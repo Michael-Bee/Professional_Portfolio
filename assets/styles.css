@@ -266,13 +266,18 @@ main section {
     /* border: 2px dashed grey; */
     width: 40%;
     display: flex;
-    margin-right: 20px;
     }
 
 #contactLinks img {
     background:transparent;
     height: 100px;
     border-radius: 10px;
+    margin-left: 20px;
+    }
+
+#contactDirect {
+    font-size: 2rem;
+    font-family: "Roboto";
     margin-left: 20px;
     }
 
