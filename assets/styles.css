@@ -209,8 +209,9 @@ main section {
     background-image: url("../assets/blueStarDistillery.jpg");
     }
     
-#orienteering{
-    background-image: url("../assets/orienteering.jpg");
+#resume{
+    background-image: url("../assets/PDF.jpg");
+    background-repeat: no-repeat;
     }
 
 /* CONTACT */
