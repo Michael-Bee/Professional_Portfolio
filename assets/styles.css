@@ -178,7 +178,7 @@ main section {
     width: 100%;
     max-width: 720px;
     border-radius: 1rem;
-    background-image: url("../assets/musicbox.jpg");
+    background-image: linear-gradient(to bottom right, #BB3E03, #EE9B00);
     }
 
 #projectLinkSmall {
@@ -192,26 +192,25 @@ main section {
     height: 230px;
     width: 230px;
     background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 1rem;
     display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin: 0 15px 15px 0;
     }
     
-#blumhaus{
-    background-image: url("../assets/blumhaus.jpg");
+#scheduler{
+    background-image: linear-gradient(to bottom right, #016b2d, #81960a);
     }
-
-#brasserie{
-    background-image: url("../assets/brasserieDuLierve.jpg");
+#password{
+    background-image: linear-gradient(to bottom right, #005F73, #94D2BD);
     }
-
-#distillery{
-    background-image: url("../assets/blueStarDistillery.jpg");
+#quiz{
+    background-image: linear-gradient(to bottom right, #8103bb, #d200ee);
     }
-    
 #resume{
     background-image: url("../assets/PDF.jpg");
-    background-repeat: no-repeat;
     }
 
 /* CONTACT */
